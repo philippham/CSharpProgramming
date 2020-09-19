@@ -1,0 +1,56 @@
+
+class Solution
+{
+    public static void Main(string[] args)
+    {
+        int[] myIntArr = new int[] { 123, 456, 789 } ;
+        // int[] myIntArr = new int[2];
+        // myIntArr[0] = 123;
+        // myIntArr[0] = 789;
+        //System.Console.WriteLine(myIntArr[0]);
+        //System.Console.WriteLine(myIntArr[1]);
+        //System.Console.WriteLine(myIntArr[2]);
+
+        // myIntArr.Length  will give 3
+        for (int i = 0; i < myIntArr.Length; i++)
+        {
+            System.Console.WriteLine(myIntArr[i]);
+        }
+    }
+}
+
+
+//int index = 5;
+
+//do
+//{
+//    System.Console.WriteLine("Hello " + index);
+//    index--;
+
+//} while (index > 0);
+
+//for (int i = index; i > 0 ; i--)
+//{
+//    System.Console.WriteLine("Hello " + i);
+//}
+
+//while (index > 0)
+//{
+//    index--;
+//    System.Console.WriteLine("Hello " + index);
+//}
+
+
+
+
+
+HOMEWORK
+1/ Ask a user enter an integer and print out the star rectangle
+Exampl: Enter 5
+*
+**
+***
+****
+*****
+
+2/ Print out multiplication talbe
